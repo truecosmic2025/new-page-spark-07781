@@ -28,7 +28,7 @@ export const UseCasesSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Choose Your End
+            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Choose Your End</span>
           </h2>
           <p className="text-xl text-muted-foreground">Use Cases</p>
         </div>
