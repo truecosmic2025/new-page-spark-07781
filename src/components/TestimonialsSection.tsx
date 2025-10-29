@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Quote } from "lucide-react";
 import testimonialAvatar1 from "@/assets/testimonial-avatar-1.jpg";
+import testimonialAvatar2 from "@/assets/testimonial-avatar-2.jpg";
 
 export const TestimonialsSection = () => {
   const testimonials = [
@@ -14,9 +15,9 @@ export const TestimonialsSection = () => {
     },
     {
       text: "I finally had one End sentence and knew what to say in my head.",
-      author: "Client B",
-      role: "Client",
-      avatar: null,
+      author: "Michael T.",
+      role: "Entrepreneur",
+      avatar: testimonialAvatar2,
     },
     {
       text: "The micro step felt doable. That's why I stuck to it.",
