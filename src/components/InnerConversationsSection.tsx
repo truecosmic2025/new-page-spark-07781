@@ -20,10 +20,9 @@ export const InnerConversationsSection = () => {
 
   return (
     <section className="py-20 px-4 relative overflow-hidden">
-      {/* Teal to cyan gradient with animated overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-teal-900 via-cyan-900 to-blue-900" />
-      <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 via-teal-500/10 to-transparent animate-gradient" />
-      <div className="container max-w-5xl mx-auto relative z-10">
+      {/* Dark blue background like Use Cases */}
+      <div className="absolute inset-0 bg-[#16213e]" />
+      <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             What Inner Conversations Feels Like
@@ -32,11 +31,11 @@ export const InnerConversationsSection = () => {
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           {characteristics.map((char, index) => (
-            <Card key={index} className="bg-card/50 backdrop-blur border-cyan-500/30 hover:border-cyan-400/50 transition-colors">
+            <Card key={index} className="bg-card/50 backdrop-blur border-border/50 hover:border-primary/50 transition-colors">
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
-                  <div className="w-12 h-12 rounded-full bg-cyan-500/20 flex items-center justify-center mb-4">
-                    <Check className="w-6 h-6 text-cyan-400" />
+                  <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-4">
+                    <Check className="w-6 h-6 text-primary" />
                   </div>
                   <h3 className="text-lg font-semibold text-foreground mb-2">{char.title}</h3>
                   <p className="text-muted-foreground">{char.description}</p>
