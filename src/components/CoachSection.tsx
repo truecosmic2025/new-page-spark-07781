@@ -62,7 +62,7 @@ export const CoachSection = () => {
               </CardContent>
             </Card>
 
-            <Button size="lg" className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8">
+            <Button size="lg" className="w-full md:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all">
               Book with Cheryl — Free 30 Minutes
             </Button>
           </div>
