@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import methodIllustration from "@/assets/method-illustration.jpg";
 
 export const MethodSection = () => {
   const steps = [
@@ -39,9 +40,16 @@ export const MethodSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             Why <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Inner Conversations + Self-Concept</span> Work
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-xl text-muted-foreground mb-8">
             The working model Cheryl uses
           </p>
+          <div className="max-w-md mx-auto mb-8">
+            <img 
+              src={methodIllustration} 
+              alt="5-Step Method Process Diagram" 
+              className="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
