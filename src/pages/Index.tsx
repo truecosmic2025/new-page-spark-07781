@@ -11,6 +11,7 @@ import { BookingSection } from "@/components/BookingSection";
 import { InnerConversationsSection } from "@/components/InnerConversationsSection";
 import { FAQSection } from "@/components/FAQSection";
 import { CTASection } from "@/components/CTASection";
+import { BackToTop } from "@/components/BackToTop";
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
       <InnerConversationsSection />
       <FAQSection />
       <CTASection />
+      <BackToTop />
     </div>
   );
 };
