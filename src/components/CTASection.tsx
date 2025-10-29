@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { CountdownTimer } from "@/components/CountdownTimer";
+import { TrendingUp } from "lucide-react";
 
 export const CTASection = () => {
   return (
@@ -12,13 +14,22 @@ export const CTASection = () => {
           Live From the You That Has It
         </h2>
         
-        <p className="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+        <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
           Book your <span className="text-primary font-semibold">free, no-pressure</span> 30-minute consult with Cheryl Andrisani and leave with an End sentence, one best-fit technique, and a personal coaching recommendation.
         </p>
 
-        <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-12 text-lg h-14 mb-12 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all">
-          Book Your Clarity Consultation
+        <div className="flex flex-col items-center gap-4 mb-10">
+          <div className="flex items-center gap-2 bg-red-500/10 border border-red-500/30 rounded-lg px-4 py-2">
+            <TrendingUp className="w-4 h-4 text-red-400" />
+            <p className="text-sm text-red-400 font-semibold">Last chance — final spots closing soon</p>
+          </div>
+          <CountdownTimer urgent />
+        </div>
+
+        <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-12 text-lg h-14 mb-4 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all">
+          Book Your Clarity Consultation — Act Now
         </Button>
+        <p className="text-xs text-muted-foreground mb-12">⚡ Limited availability. Most time slots are claimed within hours.</p>
 
         <div className="bg-card/30 backdrop-blur border border-border/50 rounded-lg p-6 max-w-2xl mx-auto">
           <p className="text-sm text-muted-foreground">

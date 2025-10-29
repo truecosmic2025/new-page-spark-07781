@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Clock } from "lucide-react";
+import { Clock, AlertCircle } from "lucide-react";
+import { CountdownTimer } from "@/components/CountdownTimer";
 
 export const ConsultSection = () => {
   const consultSteps = [
@@ -29,10 +30,19 @@ export const ConsultSection = () => {
       {/* Dark background */}
       <div className="absolute inset-0 bg-[#1a1a2e]" />
       <div className="container max-w-5xl mx-auto relative z-10">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             What You'll Get In Your <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Free 30-Minute Consult</span>
           </h2>
+        </div>
+
+        <div className="flex flex-col items-center gap-3 mb-12">
+          <div className="flex items-center gap-2 text-red-400">
+            <AlertCircle className="w-5 h-5" />
+            <p className="font-semibold">Only 3 spots left this week</p>
+          </div>
+          <CountdownTimer urgent />
+          <p className="text-sm text-muted-foreground">Next available slots expire in...</p>
         </div>
 
         <div className="grid gap-6 mb-12">

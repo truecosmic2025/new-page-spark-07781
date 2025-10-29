@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { CountdownTimer } from "@/components/CountdownTimer";
+import { Users } from "lucide-react";
 
 export const BookingSection = () => {
   const steps = [
@@ -54,10 +56,22 @@ export const BookingSection = () => {
           ))}
         </div>
 
+        <div className="bg-card/30 backdrop-blur border border-primary/30 rounded-lg p-6 mb-8 max-w-2xl mx-auto">
+          <div className="flex flex-col items-center gap-4">
+            <div className="flex items-center gap-2 text-primary">
+              <Users className="w-5 h-5" />
+              <p className="font-semibold">12 people are viewing this page right now</p>
+            </div>
+            <CountdownTimer />
+            <p className="text-sm text-muted-foreground">Book within the next 24 hours to secure this week's slot</p>
+          </div>
+        </div>
+
         <div className="text-center">
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-12">
-            Book Your Clarity Consultation
+            Book Your Clarity Consultation — Don't Wait
           </Button>
+          <p className="text-xs text-muted-foreground mt-3">Spots fill fast. Most clients book within 6 hours of visiting.</p>
         </div>
       </div>
     </section>
