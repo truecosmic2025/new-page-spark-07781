@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Heart, DollarSign, Sparkles } from "lucide-react";
+import useCaseCareer from "@/assets/use-case-career.jpg";
 
 export const UseCasesSection = () => {
   const useCases = [
@@ -30,7 +31,14 @@ export const UseCasesSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Choose Your End</span>
           </h2>
-          <p className="text-xl text-muted-foreground">Use Cases</p>
+          <p className="text-xl text-muted-foreground mb-8">Use Cases</p>
+          <div className="max-w-2xl mx-auto mb-8">
+            <img 
+              src={useCaseCareer} 
+              alt="Professional success with inner peace" 
+              className="w-full h-auto rounded-lg shadow-xl"
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
