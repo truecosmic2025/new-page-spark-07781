@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Check } from "lucide-react";
+import cherylPhoto from "@/assets/cheryl-coach.jpeg";
 
 export const CoachSection = () => {
   const coachingPoints = [
@@ -67,13 +68,14 @@ export const CoachSection = () => {
             </Button>
           </div>
 
-          {/* Coach photo placeholder */}
+          {/* Coach photo */}
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 to-secondary overflow-hidden border border-primary/30">
-              <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                {/* Photo will be added here */}
-                <p className="text-sm">Coach photo</p>
-              </div>
+            <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 shadow-[0_0_40px_rgba(0,229,255,0.2)]">
+              <img 
+                src={cherylPhoto} 
+                alt="Cheryl Andrisani - Inner Conversations & Self-Concept Coach" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
