@@ -25,9 +25,9 @@ const Index = () => {
       <UseCasesSection />
       <TestimonialsSection />
       <DifferenceSection />
-      <BookingSection />
       <InnerConversationsSection />
       <FAQSection />
+      <BookingSection />
       <CTASection />
       <BackToTop />
     </div>
