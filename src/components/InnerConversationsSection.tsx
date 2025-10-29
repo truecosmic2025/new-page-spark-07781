@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
+import innerPeace from "@/assets/inner-peace.jpg";
 
 export const InnerConversationsSection = () => {
   const characteristics = [
@@ -27,6 +28,13 @@ export const InnerConversationsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             What Inner Conversations Feels Like
           </h2>
+          <div className="max-w-2xl mx-auto mb-8">
+            <img 
+              src={innerPeace} 
+              alt="Inner peace and mindful contemplation" 
+              className="w-full h-auto rounded-lg shadow-xl"
+            />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
