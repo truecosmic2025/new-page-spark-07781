@@ -1,20 +1,28 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Quote } from "lucide-react";
+import testimonialAvatar1 from "@/assets/testimonial-avatar-1.jpg";
 
 export const TestimonialsSection = () => {
   const testimonials = [
     {
       text: "One replacement line changed my week. I stopped arguing with myself.",
-      author: "Client A",
+      author: "Sarah M.",
+      role: "Career Consultant",
+      avatar: testimonialAvatar1,
     },
     {
       text: "I finally had one End sentence and knew what to say in my head.",
       author: "Client B",
+      role: "Client",
+      avatar: null,
     },
     {
       text: "The micro step felt doable. That's why I stuck to it.",
       author: "Client C",
+      role: "Client",
+      avatar: null,
     },
   ];
 
@@ -34,8 +42,19 @@ export const TestimonialsSection = () => {
             <Card key={index} className="bg-card/40 backdrop-blur border-indigo-500/20 hover:border-indigo-400/40 transition-colors">
               <CardContent className="pt-6">
                 <Quote className="w-8 h-8 text-cyan-400 mb-4" />
-                <p className="text-muted-foreground mb-4 italic">"{testimonial.text}"</p>
-                <p className="text-foreground font-semibold">— {testimonial.author}</p>
+                <p className="text-muted-foreground mb-4 italic leading-relaxed">"{testimonial.text}"</p>
+                <div className="flex items-center gap-3 mt-6">
+                  <Avatar className="w-12 h-12 border-2 border-primary/20">
+                    {testimonial.avatar && <AvatarImage src={testimonial.avatar} alt={testimonial.author} />}
+                    <AvatarFallback className="bg-primary/10 text-primary">
+                      {testimonial.author.charAt(0)}
+                    </AvatarFallback>
+                  </Avatar>
+                  <div>
+                    <p className="text-foreground font-semibold">{testimonial.author}</p>
+                    <p className="text-sm text-muted-foreground">{testimonial.role}</p>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           ))}
