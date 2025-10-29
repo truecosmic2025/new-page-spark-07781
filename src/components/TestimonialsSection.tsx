@@ -4,16 +4,16 @@ import { Quote } from "lucide-react";
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      text: "I finally had one clear plan instead of a dozen hacks. The nightly scene became the calmest part of my day.",
-      author: "Alison J",
+      text: "One replacement line changed my week. I stopped arguing with myself.",
+      author: "Client A",
     },
     {
-      text: "Robert caught a tiny phrase I kept repeating. Changing that inner line changed my week.",
-      author: "Cecil J",
+      text: "I finally had one End sentence and knew what to say in my head.",
+      author: "Client B",
     },
     {
-      text: "I stopped waiting for signs. Living in the end made me act from the end.",
-      author: "Izabelle D",
+      text: "The micro step felt doable. That's why I stuck to it.",
+      author: "Client C",
     },
   ];
 

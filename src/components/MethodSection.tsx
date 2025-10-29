@@ -5,28 +5,28 @@ export const MethodSection = () => {
   const steps = [
     {
       number: "1",
-      title: "Define the End",
-      description: "One specific, already-done outcome.",
+      title: "Assume the End (in words)",
+      description: "We phrase your outcome as if it's already true.",
     },
     {
       number: "2",
-      title: "Build the Scene",
-      description: "Brief, sensory-rich moment after it's achieved.",
+      title: "Align the Voice",
+      description: "We replace one looping line with a calm, aligned line.",
     },
     {
       number: "3",
-      title: "Feel It Real — Nightly",
-      description: "5–10m SATS wind-down.",
+      title: "Choose a Cue",
+      description: "One moment in your day (AM/PM/trigger) to practise the new line.",
     },
     {
       number: "4",
-      title: "Daytime Inner Speech",
-      description: "Swap old story for aligned phrases.",
+      title: "Stabilise the Self-Concept",
+      description: "Repeat the line from the identity that already has it.",
     },
     {
       number: "5",
-      title: "Revision",
-      description: "Re-assign meaning to wobble moments.",
+      title: "Optional add-on",
+      description: "Tiny SATS or quick Revision when wobble hits.",
     },
   ];
 
@@ -35,10 +35,10 @@ export const MethodSection = () => {
       <div className="container max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Why Neville's "Live in the End" Works
+            Why Inner Conversations + Self-Concept Work
           </h2>
           <p className="text-xl text-muted-foreground">
-            The Simple Frame Robert Teaches His Students
+            The working model Cheryl uses
           </p>
         </div>
 
@@ -60,13 +60,13 @@ export const MethodSection = () => {
 
         <div className="bg-card/30 backdrop-blur border border-primary/30 rounded-lg p-6 mb-8">
           <p className="text-lg text-foreground text-center">
-            <span className="font-semibold">Result:</span> A daily rhythm that stabilises state, so behaviour and opportunities naturally align.
+            <span className="font-semibold">Result:</span> Your inner narrative stops arguing with your goal—so consistent action feels natural.
           </p>
         </div>
 
         <div className="text-center">
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8">
-            Get Your Personal Plan — Free
+            See Your Best-Fit Plan
           </Button>
         </div>
       </div>

@@ -4,16 +4,17 @@ import { Check, X } from "lucide-react";
 
 export const ProblemSection = () => {
   const problems = [
-    "You've read about manifestation but struggle to be consistent.",
-    "You're not sure if your inner conversations are helping or hurting.",
-    "You've tried SATS, scripting, or revision…and ended up overthinking.",
-    "You want results you can feel—in love, money, or peace of mind.",
+    "You catch yourself rehearsing worst-case scenarios in your head.",
+    "Your self-talk flips between hopeful and harsh—so your actions stall.",
+    "You've read Neville but you're not consistent day to day.",
+    "You're ready to upgrade your self-concept, not just your goals.",
   ];
 
   const solutions = [
-    "A single, personalised plan based on Neville's Live in the End—tailored to your goal.",
-    "A clear imaginal scene you can sink into nightly (no more guesswork).",
-    "Daily prompts that keep you on track when doubt creeps in.",
+    "A quick diagnostic of your primary bottleneck.",
+    "A clear End sentence (already-done outcome).",
+    "One recommended technique to start (Inner Speech, SATS, or Revision).",
+    "A personal recommendation for the best coaching path to make it stick.",
   ];
 
   return (
@@ -48,7 +49,7 @@ export const ProblemSection = () => {
                 ))}
               </ul>
               <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold">
-                Book Your Free 1:1 Session
+                Book Your Clarity Consultation
               </Button>
             </CardContent>
           </Card>

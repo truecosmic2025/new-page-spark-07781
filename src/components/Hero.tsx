@@ -9,67 +9,40 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent opacity-50" />
       
       <div className="container relative z-10 max-w-5xl mx-auto text-center">
-        {/* Top badge */}
-        <Badge className="mb-8 bg-primary/10 text-primary border-primary/30 hover:bg-primary/20">
-          <Sparkles className="w-4 h-4 mr-2" />
-          Transform Your Reality in Just 21 Days
-        </Badge>
-
         {/* Main headline */}
         <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-          Make Your End a{" "}
-          <span className="text-primary">Daily Reality</span>
-          <br />— Starting Tonight
+          Change the Voice Inside —{" "}
+          <span className="text-primary">Change the Life Outside</span>
         </h1>
 
         {/* Subheadline */}
         <p className="mb-8 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Book a <span className="text-primary font-semibold">free 30-minute 1:1 consultation</span> with Truecosmic's imagination coach <span className="font-semibold text-foreground">Robert Meade</span>. In one focused session, you'll define your aim, craft a Neville-style <span className="font-semibold text-foreground">clear plan</span> scene, and leave with a <span className="font-semibold text-foreground">7-day plan</span> you can actually follow.
+          Book a <span className="text-primary font-semibold">free 30-minute clarity consult</span> with <span className="font-semibold text-foreground">Cheryl Andrisani</span>. We'll identify your main bottleneck, craft a clean End sentence, and recommend the right coaching path using Neville's <span className="font-semibold text-foreground">Inner Conversations</span> and <span className="font-semibold text-foreground">Self-Concept</span> methods.
         </p>
 
-        {/* Stats */}
-        <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm">
-          <div className="flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-primary" />
-            <span className="text-foreground font-medium">1,000+ Students Transformed</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-5 h-5 text-primary" />
-            <span className="text-foreground font-medium">21 Daily Lessons</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-5 h-5 text-primary" />
-            <span className="text-foreground font-medium">Certificate Included</span>
-          </div>
+        {/* Trust badges */}
+        <div className="flex flex-wrap justify-center gap-4 mb-10 text-sm text-muted-foreground">
+          <span>Judgment-free</span>
+          <span className="text-muted-foreground/50">•</span>
+          <span>Neville methods</span>
+          <span className="text-muted-foreground/50">•</span>
+          <span>Practical micro steps</span>
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 text-lg h-14">
-            Book Your Free 1:1 Session
+            Book Your Clarity Consultation
           </Button>
           <Button size="lg" variant="outline" className="border-foreground/30 text-foreground hover:bg-foreground/10 px-8 text-lg h-14">
-            Watch Preview
+            Learn How Inner Conversations Work
           </Button>
         </div>
 
-        {/* Trust badges */}
-        <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-4 h-4 text-primary" />
-            Instant Access
-          </div>
-          <span className="text-muted-foreground/50">•</span>
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-4 h-4 text-primary" />
-            30-Day Money Back Guarantee
-          </div>
-          <span className="text-muted-foreground/50">•</span>
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-4 h-4 text-primary" />
-            Lifetime Support
-          </div>
-        </div>
+        {/* Micro-copy */}
+        <p className="text-sm text-muted-foreground max-w-2xl mx-auto italic">
+          It's a diagnostic consult—not a full coaching session. If a program fits, we'll recommend it—no pressure.
+        </p>
       </div>
     </section>
   );

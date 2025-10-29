@@ -8,28 +8,20 @@ import {
 export const FAQSection = () => {
   const faqs = [
     {
+      question: "Is this a coaching session?",
+      answer: "No—it's a clarity consultation. We identify your bottleneck, set an End sentence, choose one starting technique, and recommend the best coaching path.",
+    },
+    {
+      question: "Will I get a full plan?",
+      answer: "Not on the consult. You'll receive a short recap and a coaching recommendation where your full plan is built.",
+    },
+    {
       question: "Do I need Neville experience?",
-      answer: "No prior experience is needed. Whether you're new to Neville Goddard's teachings or have been practicing for years, we'll meet you where you are and create a personalized plan that works for you.",
+      answer: "No—Cheryl keeps it simple and practical.",
     },
     {
-      question: "Is the session really free?",
-      answer: "Yes, absolutely. The 30-minute consultation is completely free with no hidden costs or obligations. We want you to experience the value firsthand before making any commitments.",
-    },
-    {
-      question: "How fast will I see changes?",
-      answer: "Many students report feeling shifts in their inner state within the first week. External manifestations vary by person and goal, but consistent practice typically shows results within 21-30 days.",
-    },
-    {
-      question: "What if my goal changes?",
-      answer: "That's completely normal. Your plan is flexible and can be adjusted as your desires clarify. The techniques you'll learn can be applied to any goal you choose.",
-    },
-    {
-      question: "Is this therapy?",
-      answer: "No, this is imagination coaching based on Neville Goddard's teachings. While it can be emotionally supportive, it's not a substitute for licensed mental health care. We recommend seeking professional help for medical or mental health concerns.",
-    },
-    {
-      question: "What should I prepare?",
-      answer: "Come with one clear goal or desire in mind. That's it. We'll handle the rest together during the session.",
+      question: "Is it really free?",
+      answer: "Yes. If a program fits, we'll mention it—no pressure.",
     },
   ];
 
