@@ -50,7 +50,10 @@ export const ProblemSection = () => {
                   </li>
                 ))}
               </ul>
-              <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold">
+              <Button 
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+                onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Book Your Clarity Consultation
               </Button>
             </CardContent>

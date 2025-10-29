@@ -42,7 +42,11 @@ export const TestimonialsSection = () => {
         </div>
 
         <div className="text-center">
-          <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all">
+          <Button 
+            size="lg" 
+            className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all"
+            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Book Now — Limited Spots This Week
           </Button>
         </div>

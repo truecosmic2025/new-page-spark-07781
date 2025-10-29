@@ -46,7 +46,11 @@ export const InnerConversationsSection = () => {
         </div>
 
         <div className="text-center">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
+            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Try It with Cheryl — Free
           </Button>
         </div>
