@@ -39,7 +39,11 @@ export const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 text-lg h-14">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 text-lg h-14"
+            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Book Your Clarity Consultation
           </Button>
           <Button size="lg" variant="outline" className="border-foreground/30 text-foreground hover:bg-foreground/10 px-8 text-lg h-14">
