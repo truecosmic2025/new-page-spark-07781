@@ -16,7 +16,7 @@ export const CTASection = () => {
           Book your <span className="text-primary font-semibold">free, no-pressure</span> 30-minute consult with Cheryl Andrisani and leave with an End sentence, one best-fit technique, and a personal coaching recommendation.
         </p>
 
-        <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-12 text-lg h-14 mb-12">
+        <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-12 text-lg h-14 mb-12 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all">
           Book Your Clarity Consultation
         </Button>
 
