@@ -19,8 +19,10 @@ export const DifferenceSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-background to-secondary">
-      <div className="container max-w-5xl mx-auto">
+    <section className="py-20 px-4 relative overflow-hidden">
+      {/* Dark to purple gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#16213e] to-[#1a1a2e]" />
+      <div className="container max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             Why This Call Is Different

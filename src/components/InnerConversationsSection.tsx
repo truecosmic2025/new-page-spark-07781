@@ -19,8 +19,10 @@ export const InnerConversationsSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-secondary to-background">
-      <div className="container max-w-5xl mx-auto">
+    <section className="py-20 px-4 relative overflow-hidden">
+      {/* Purple to dark gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0f3460] to-[#16213e]" />
+      <div className="container max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             What Inner Conversations Feels Like

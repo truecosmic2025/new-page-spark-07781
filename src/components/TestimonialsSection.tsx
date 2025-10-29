@@ -18,8 +18,10 @@ export const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-background to-secondary">
-      <div className="container max-w-6xl mx-auto">
+    <section className="py-20 px-4 relative overflow-hidden">
+      {/* Purple gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a2e] to-[#0f3460]" />
+      <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Real Results</h2>
           <p className="text-xl text-muted-foreground">Short, Human Wins</p>

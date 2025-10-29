@@ -31,8 +31,10 @@ export const MethodSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-background">
-      <div className="container max-w-6xl mx-auto">
+    <section className="py-20 px-4 relative overflow-hidden">
+      {/* Dark blue background */}
+      <div className="absolute inset-0 bg-[#16213e]" />
+      <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
             Why Inner Conversations + Self-Concept Work

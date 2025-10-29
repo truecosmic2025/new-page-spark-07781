@@ -2,8 +2,10 @@ import { Button } from "@/components/ui/button";
 
 export const CTASection = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-secondary to-background">
-      <div className="container max-w-4xl mx-auto text-center">
+    <section className="py-20 px-4 relative overflow-hidden">
+      {/* Purple gradient final section */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a2e] to-[#0f3460]" />
+      <div className="container max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
           Upgrade Your Inner Voice—
           <br />

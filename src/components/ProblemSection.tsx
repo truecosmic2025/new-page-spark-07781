@@ -18,8 +18,10 @@ export const ProblemSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-secondary to-background">
-      <div className="container max-w-5xl mx-auto">
+    <section className="py-20 px-4 relative overflow-hidden">
+      {/* Purple gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0f3460] via-[#1a1a2e] to-[#16213e]" />
+      <div className="container max-w-5xl mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12">
           {/* Is this you? */}
           <Card className="bg-card/50 backdrop-blur border-border/50">

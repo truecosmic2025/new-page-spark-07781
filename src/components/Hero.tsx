@@ -4,9 +4,15 @@ import { Sparkles, CheckCircle2 } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background to-secondary px-4 py-20">
-      {/* Animated background gradient */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent opacity-50" />
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 py-20">
+      {/* Animated background with purple gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#1a1a2e] via-[#16213e] to-[#0f3460]" />
+      
+      {/* Animated purple to cyan gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/30 via-blue-900/20 to-cyan-500/10 animate-gradient" />
+      
+      {/* Radial glow effect */}
+      <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-radial from-purple-500/20 via-transparent to-transparent blur-3xl animate-pulse-slow" />
       
       <div className="container relative z-10 max-w-5xl mx-auto text-center">
         {/* Main headline */}

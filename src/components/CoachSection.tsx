@@ -20,8 +20,10 @@ export const CoachSection = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-background to-secondary">
-      <div className="container max-w-6xl mx-auto">
+    <section className="py-20 px-4 relative overflow-hidden">
+      {/* Purple to dark gradient */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#16213e] via-[#1a1a2e] to-[#0f3460]" />
+      <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/30">
             Specialty: Inner Conversations & Self-Concept
