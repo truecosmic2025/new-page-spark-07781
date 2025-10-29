@@ -12,7 +12,6 @@ import { InnerConversationsSection } from "@/components/InnerConversationsSectio
 import { FAQSection } from "@/components/FAQSection";
 import { CTASection } from "@/components/CTASection";
 import { BackToTop } from "@/components/BackToTop";
-import { ChatbotWidget } from "@/components/ChatbotWidget";
 
 const Index = () => {
   return (
@@ -31,7 +30,6 @@ const Index = () => {
       <FAQSection />
       <CTASection />
       <BackToTop />
-      <ChatbotWidget />
     </div>
   );
 };
