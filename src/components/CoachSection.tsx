@@ -8,15 +8,15 @@ export const CoachSection = () => {
   const coachingPoints = [
     {
       title: "Clarity first",
-      description: "One End sentence you can actually live from.",
+      description: "One End sentence that feels natural in your mouth.",
     },
     {
-      title: "Voice upgrade",
-      description: "One replacement line you'll use when doubt appears.",
+      title: "Identity alignment",
+      description: "Choose one line your new self would say.",
     },
     {
-      title: "Consistency over drama",
-      description: "Tiny, sustainable repetitions that reshape identity.",
+      title: "Simplicity always",
+      description: "Repeatable, light practice beats drama.",
     },
   ];
 
@@ -27,22 +27,22 @@ export const CoachSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/30">
-            Specialty: Inner Conversations & Self-Concept
+            Specialty: Self-Concept & Identity Reset
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Meet Your Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Cheryl Andrisani</span>
+            Meet Your Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Valentine Wairimu</span>
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           {/* Coach info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-foreground">Who I am:</h3>
+            <h3 className="text-2xl font-bold mb-4 text-foreground">Hi, I'm Valentine.</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              I'm Cheryl, an imagination & consciousness coach at Truecosmic. I specialise in <span className="text-primary font-semibold">Inner Conversations</span> and <span className="text-primary font-semibold">Self-Concept</span>—translating Neville's teachings into simple, repeatable practices you can live with.
+              I coach through the lens of <span className="text-primary font-semibold">self-concept</span>—retraining the story of who you are so your life reflects it. Expect clarity, honest encouragement, and simple steps you'll actually do.
             </p>
 
-            <h3 className="text-2xl font-bold mb-4 text-foreground">How I coach:</h3>
+            <h3 className="text-2xl font-bold mb-4 text-foreground">How we'll work on the call:</h3>
             <ul className="space-y-4 mb-6">
               {coachingPoints.map((point, index) => (
                 <li key={index} className="flex gap-3">
@@ -55,20 +55,13 @@ export const CoachSection = () => {
               ))}
             </ul>
 
-            <Card className="bg-card/50 backdrop-blur border-primary/30 mb-6">
-              <CardContent className="pt-6">
-                <p className="text-foreground italic">
-                  <span className="font-semibold">Guiding idea:</span> Your self-concept speaks first—we train that voice.
-                </p>
-              </CardContent>
-            </Card>
 
             <Button 
               size="lg" 
               className="w-full md:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all"
               onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Book with Cheryl — Free 30 Minutes
+              Book with Valentine — Free 30 Minutes
             </Button>
           </div>
 
@@ -77,7 +70,7 @@ export const CoachSection = () => {
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 shadow-[0_0_40px_rgba(0,229,255,0.2)]">
               <img 
                 src={cherylPhoto} 
-                alt="Cheryl Andrisani - Inner Conversations & Self-Concept Coach" 
+                alt="Valentine Wairimu - Self-Concept & Identity Reset Coach" 
                 className="w-full h-full object-cover"
               />
             </div>

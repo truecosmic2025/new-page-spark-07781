@@ -6,28 +6,28 @@ export const MethodSection = () => {
   const steps = [
     {
       number: "1",
-      title: "Assume the End (in words)",
-      description: "We phrase your outcome as if it's already true.",
+      title: "Name the End as identity",
+      description: "We phrase the outcome from the self who already has it.",
     },
     {
       number: "2",
-      title: "Align the Voice",
-      description: "We replace one looping line with a calm, aligned line.",
+      title: "Edit the inner label",
+      description: "Select one replacement line that matches the new role you're stepping into.",
     },
     {
       number: "3",
-      title: "Choose a Cue",
-      description: "One moment in your day (AM/PM/trigger) to practise the new line.",
+      title: "Attach a cue",
+      description: "Pick a simple time/trigger so the new line actually gets used.",
     },
     {
       number: "4",
-      title: "Stabilise the Self-Concept",
-      description: "Repeat the line from the identity that already has it.",
+      title: "Normalize it",
+      description: "Light, repeatable practice until the new self feels ordinary.",
     },
     {
       number: "5",
-      title: "Optional add-on",
-      description: "Tiny SATS or quick Revision when wobble hits.",
+      title: "Support tool (as needed)",
+      description: "Quick SATS or a brief Revision for wobble moments.",
     },
   ];
 
@@ -38,10 +38,10 @@ export const MethodSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Why <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Inner Conversations + Self-Concept</span> Work
+            Why <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Self-Concept & Identity Reset</span> Work
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            The working model Cheryl uses
+            Valentine's working model
           </p>
           <div className="max-w-md mx-auto mb-8">
             <img 
@@ -70,7 +70,7 @@ export const MethodSection = () => {
 
         <div className="bg-card/30 backdrop-blur border border-primary/30 rounded-lg p-6 mb-8">
           <p className="text-lg text-foreground text-center">
-            <span className="font-semibold">Result:</span> Your inner narrative stops arguing with your goal—so consistent action feels natural.
+            <span className="font-semibold">Outcome:</span> Your self-definition stops arguing with your goal—so aligned choices come easier.
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export const MethodSection = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            See Your Best-Fit Plan
+            Find Your Best-Fit Path
           </Button>
         </div>
       </div>

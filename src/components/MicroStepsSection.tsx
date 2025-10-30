@@ -3,16 +3,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export const MicroStepsSection = () => {
   const techniques = [
     {
-      title: "If Inner Conversations is recommended:",
-      step: 'When the old line appears, say your new line once: "I move as someone it already worked for." Then carry on.',
+      title: "If Inner Speech is chosen:",
+      step: 'When the old label shows up, say your new identity line once and move on: "I respond as someone it already worked for."',
     },
     {
-      title: "If SATS is recommended:",
-      step: "Tonight, run a 10–20 second scene seed (one place, one touch, one line you hear) twice, calmly.",
+      title: "If SATS is chosen:",
+      step: "Tonight, run a 10–20 second scene seed twice (one place, one touch, one line you hear), calmly.",
     },
     {
-      title: "If Revision is recommended:",
-      step: "Pick one moment from today that triggered the old story; re-see it once with your new meaning, then move on.",
+      title: "If Revision is chosen:",
+      step: "Take one moment from today that carried the old story; re-see it once with your new meaning, then carry on.",
     },
   ];
 

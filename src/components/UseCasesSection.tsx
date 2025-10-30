@@ -6,19 +6,19 @@ import useCaseCareer from "@/assets/use-case-career.jpg";
 export const UseCasesSection = () => {
   const useCases = [
     {
-      icon: Heart,
-      title: "Love & Relationships",
-      description: "Replace anxious inner chatter with a warm, chosen identity.",
+      icon: DollarSign,
+      title: "Career & Income",
+      description: "Operate as the person who's selected and compensated.",
     },
     {
-      icon: DollarSign,
-      title: "Money & Career",
-      description: 'Shift daily self-talk from "chasing" to "selected/paid."',
+      icon: Heart,
+      title: "Love & Relationships",
+      description: "Interact as the secure, chosen version of you.",
     },
     {
       icon: Sparkles,
-      title: "Peace & Confidence",
-      description: "Quiet the critic; rehearse calm, competent inner speech.",
+      title: "Peace & Presence",
+      description: "Walk through the day with a steadier baseline.",
     },
   ];
 

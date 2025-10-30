@@ -4,17 +4,17 @@ import { Check, X } from "lucide-react";
 
 export const ProblemSection = () => {
   const problems = [
-    "You catch yourself rehearsing worst-case scenarios in your head.",
-    "Your self-talk flips between hopeful and harsh—so your actions stall.",
-    "You've read Neville but you're not consistent day to day.",
-    "You're ready to upgrade your self-concept, not just your goals.",
+    "You flip between confidence and self-doubt—your actions never quite match the goal.",
+    "Old inner labels keep pulling you back into yesterday's identity.",
+    "You know the tools, but consistency slips after a few days.",
+    "You want a steady self-concept so success feels normal, not lucky.",
   ];
 
   const solutions = [
-    "A quick diagnostic of your primary bottleneck.",
-    "A clear End sentence (already-done outcome).",
-    "One recommended technique to start (Inner Speech, SATS, or Revision).",
-    "A personal recommendation for the best coaching path to make it stick.",
+    "A fast read on your primary bottleneck.",
+    "One clean End sentence you can live from.",
+    "One recommended technique to begin (Inner Speech / SATS / Revision).",
+    "A personal recommendation for the coaching route that fits your aim.",
   ];
 
   return (
@@ -26,7 +26,7 @@ export const ProblemSection = () => {
           {/* Is this you? */}
           <Card className="bg-card/50 backdrop-blur border-border/50">
             <CardContent className="pt-6">
-              <h2 className="text-3xl font-bold mb-6 text-foreground">Is this you?</h2>
+              <h2 className="text-3xl font-bold mb-6 text-foreground">Does this sound familiar?</h2>
               <ul className="space-y-4">
                 {problems.map((problem, index) => (
                   <li key={index} className="flex gap-3">
@@ -41,7 +41,7 @@ export const ProblemSection = () => {
           {/* What changes here */}
           <Card className="bg-card/50 backdrop-blur border-primary/30">
             <CardContent className="pt-6">
-              <h2 className="text-3xl font-bold mb-6 text-foreground">What changes here:</h2>
+              <h2 className="text-3xl font-bold mb-6 text-foreground">What you'll gain here:</h2>
               <ul className="space-y-4 mb-8">
                 {solutions.map((solution, index) => (
                   <li key={index} className="flex gap-3">

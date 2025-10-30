@@ -8,16 +8,16 @@ import {
 export const FAQSection = () => {
   const faqs = [
     {
-      question: "Is this a coaching session?",
-      answer: "No—it's a clarity consultation. We identify your bottleneck, set an End sentence, choose one starting technique, and recommend the best coaching path.",
+      question: "Is this coaching?",
+      answer: "It's a clarity consultation. We identify your main bottleneck, set an End sentence, pick one technique, and offer a coaching recommendation.",
     },
     {
-      question: "Will I get a full plan?",
-      answer: "Not on the consult. You'll receive a short recap and a coaching recommendation where your full plan is built.",
+      question: "Do I leave with a full plan?",
+      answer: "Not from the consult. You'll receive a short recap and a recommended coaching route where your full plan is built.",
     },
     {
       question: "Do I need Neville experience?",
-      answer: "No—Cheryl keeps it simple and practical.",
+      answer: "No—Valentine keeps it simple and practical.",
     },
     {
       question: "Is it really free?",

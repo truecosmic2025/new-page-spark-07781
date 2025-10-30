@@ -12,16 +12,16 @@ export const ConsultSection = () => {
       title: "Your End sentence (already-done outcome)",
     },
     {
-      title: "One recommended technique to start",
+      title: "One recommended technique to begin",
       description: "(Inner Speech / SATS / Revision)",
     },
     {
-      title: "One micro step you can try tonight",
+      title: "One micro step for tonight",
       description: "(under 5 minutes)",
     },
     {
       title: "A brief recap email",
-      description: "with your End, the technique recommendation, and suggested next step",
+      description: "End sentence, technique recommendation, suggested next step",
     },
   ];
 

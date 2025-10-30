@@ -5,16 +5,16 @@ import { Check } from "lucide-react";
 export const DifferenceSection = () => {
   const differences = [
     {
-      title: "Diagnostic, not a lecture",
-      description: "We find the one bottleneck.",
+      title: "Diagnostic, not theory",
+      description: "We isolate one bottleneck that actually matters.",
     },
     {
-      title: "One technique, not three",
-      description: "Clarity beats overwhelm.",
+      title: "One tool at a time",
+      description: "Clarity beats trying everything at once.",
     },
     {
       title: "No pressure",
-      description: "If coaching fits, you'll get a clear recommendation.",
+      description: "If it's a fit, you get a clear coaching recommendation.",
     },
   ];
 

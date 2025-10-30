@@ -9,13 +9,13 @@ export const CTASection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a2e] to-[#0f3460]" />
       <div className="container max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-          Upgrade Your Inner Voice—
+          Re-write Who You Are
           <br />
-          Live From the You That Has It
+          to the Result
         </h2>
         
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Book your <span className="text-primary font-semibold">free, no-pressure</span> 30-minute consult with Cheryl Andrisani and leave with an End sentence, one best-fit technique, and a personal coaching recommendation.
+          Book your <span className="text-primary font-semibold">free, no-pressure</span> 30-minute consult with <span className="font-semibold text-foreground">Valentine Wairimu</span>. Leave with a clear <span className="font-semibold text-foreground">End sentence</span>, <span className="font-semibold text-foreground">one best-fit technique</span>, and a <span className="font-semibold text-foreground">personal coaching recommendation</span>.
         </p>
 
         <div className="flex flex-col items-center gap-4 mb-10">

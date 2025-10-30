@@ -9,21 +9,21 @@ import testimonialAvatar3 from "@/assets/testimonial-avatar-3.jpg";
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      text: "One replacement line changed my week. I stopped arguing with myself.",
-      author: "Sarah M.",
-      role: "Career Consultant",
+      text: "I stopped negotiating with my old self. Everything felt simpler.",
+      author: "Client A",
+      role: "",
       avatar: testimonialAvatar1,
     },
     {
-      text: "I finally had one End sentence and knew what to say in my head.",
-      author: "Michael T.",
-      role: "Entrepreneur",
+      text: "One line changed how I showed up in conversations.",
+      author: "Client B",
+      role: "",
       avatar: testimonialAvatar2,
     },
     {
-      text: "The micro step felt doable. That's why I stuck to it.",
-      author: "Jessica L.",
-      role: "Marketing Director",
+      text: "Tiny steps made it stick—no overwhelm.",
+      author: "Client C",
+      role: "",
       avatar: testimonialAvatar3,
     },
   ];
@@ -35,8 +35,8 @@ export const TestimonialsSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-indigo-950/40 to-transparent" />
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Real Results</h2>
-          <p className="text-xl text-muted-foreground">Short, Human Wins</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Mini Proof</h2>
+          <p className="text-xl text-muted-foreground">Real, Short Wins</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
