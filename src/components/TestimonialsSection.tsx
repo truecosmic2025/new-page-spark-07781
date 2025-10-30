@@ -10,19 +10,19 @@ export const TestimonialsSection = () => {
   const testimonials = [
     {
       text: "I stopped negotiating with my old self. Everything felt simpler.",
-      author: "Client A",
+      author: "Sarah M.",
       role: "",
       avatar: testimonialAvatar1,
     },
     {
       text: "One line changed how I showed up in conversations.",
-      author: "Client B",
+      author: "James K.",
       role: "",
       avatar: testimonialAvatar2,
     },
     {
       text: "Tiny steps made it stick—no overwhelm.",
-      author: "Client C",
+      author: "Rachel T.",
       role: "",
       avatar: testimonialAvatar3,
     },
