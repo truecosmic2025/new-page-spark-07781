@@ -7,13 +7,34 @@ interface CountdownTimerProps {
 }
 
 export const CountdownTimer = ({ endTime, urgent = false }: CountdownTimerProps) => {
+  const getEndTime = () => {
+    if (endTime) return endTime.getTime();
+    // Store end time in localStorage to persist across page reloads
+    const stored = localStorage.getItem('countdown-end-time');
+    if (stored) {
+      const storedTime = parseInt(stored);
+      if (storedTime > Date.now()) return storedTime;
+    }
+    // Set new end time 24 hours from now
+    const newEndTime = Date.now() + (24 * 60 * 60 * 1000);
+    localStorage.setItem('countdown-end-time', newEndTime.toString());
+    return newEndTime;
+  };
+
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
-    const end = endTime ? endTime.getTime() : now + (24 * 60 * 60 * 1000); // Default to 24 hours
+    const end = getEndTime();
     const difference = end - now;
 
     if (difference <= 0) {
-      return { hours: 0, minutes: 0, seconds: 0 };
+      // Reset timer when it reaches 0
+      const newEndTime = now + (24 * 60 * 60 * 1000);
+      localStorage.setItem('countdown-end-time', newEndTime.toString());
+      return {
+        hours: 24,
+        minutes: 0,
+        seconds: 0,
+      };
     }
 
     return {
