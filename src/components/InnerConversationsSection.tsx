@@ -6,16 +6,16 @@ import innerPeace from "@/assets/inner-peace.jpg";
 export const InnerConversationsSection = () => {
   const characteristics = [
     {
-      title: "Short and kind",
-      description: "One calm line—no inner arguments.",
+      title: "Corto y amable",
+      description: "Una línea calmada—sin argumentos internos.",
     },
     {
-      title: "Identity-led",
-      description: "Act from the person who already has it.",
+      title: "Guiado por identidad",
+      description: "Actúa desde la persona que ya lo tiene.",
     },
     {
-      title: "Cue-based",
-      description: "Tie the practice to a real daily moment.",
+      title: "Basado en señales",
+      description: "Vincula la práctica a un momento diario real.",
     },
   ];
 
@@ -26,7 +26,7 @@ export const InnerConversationsSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            What Self-Concept Practice Feels Like
+            Cómo Se Siente la Práctica de Autoconcepto
           </h2>
           <div className="max-w-2xl mx-auto mb-8">
             <img 
@@ -59,7 +59,7 @@ export const InnerConversationsSection = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Try It with Valentine — Free
+            Pruébalo con Blanca — Gratis
           </Button>
         </div>
       </div>

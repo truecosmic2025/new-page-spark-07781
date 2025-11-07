@@ -3,16 +3,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export const MicroStepsSection = () => {
   const techniques = [
     {
-      title: "If Inner Speech is chosen:",
-      step: 'When the old label shows up, say your new identity line once and move on: "I respond as someone it already worked for."',
+      title: "Si se elige Habla Interna:",
+      step: 'Cuando aparezca la vieja etiqueta, di tu nueva línea de identidad una vez y sigue adelante: "Respondo como alguien para quien ya funcionó."',
     },
     {
-      title: "If SATS is chosen:",
-      step: "Tonight, run a 10–20 second scene seed twice (one place, one touch, one line you hear), calmly.",
+      title: "Si se elige SATS:",
+      step: "Esta noche, ejecuta una escena semilla de 10-20 segundos dos veces (un lugar, un toque, una línea que escuchas), con calma.",
     },
     {
-      title: "If Revision is chosen:",
-      step: "Take one moment from today that carried the old story; re-see it once with your new meaning, then carry on.",
+      title: "Si se elige Revisión:",
+      step: "Toma un momento de hoy que llevó la vieja historia; re-velo una vez con tu nuevo significado, luego continúa.",
     },
   ];
 
@@ -23,9 +23,9 @@ export const MicroStepsSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Sample Micro-Steps
+            Ejemplos de Micro-Pasos
           </h2>
-          <p className="text-xl text-muted-foreground">Based on the technique</p>
+          <p className="text-xl text-muted-foreground">Basados en la técnica</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">

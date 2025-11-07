@@ -5,16 +5,16 @@ import { Check } from "lucide-react";
 export const DifferenceSection = () => {
   const differences = [
     {
-      title: "Diagnostic, not theory",
-      description: "We isolate one bottleneck that actually matters.",
+      title: "Diagnóstico, no teoría",
+      description: "Aislamos un obstáculo que realmente importa.",
     },
     {
-      title: "One tool at a time",
-      description: "Clarity beats trying everything at once.",
+      title: "Una herramienta a la vez",
+      description: "La claridad supera intentar todo a la vez.",
     },
     {
-      title: "No pressure",
-      description: "If it's a fit, you get a clear coaching recommendation.",
+      title: "Sin presión",
+      description: "Si es adecuado, obtienes una recomendación de coaching clara.",
     },
   ];
 
@@ -25,7 +25,7 @@ export const DifferenceSection = () => {
       <div className="container max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Why This Call Is <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Different</span>
+            Por Qué Esta Llamada Es <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Diferente</span>
           </h2>
         </div>
 
@@ -51,7 +51,7 @@ export const DifferenceSection = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Get Your Personal Recommendation
+            Obtén Tu Recomendación Personal
           </Button>
         </div>
       </div>

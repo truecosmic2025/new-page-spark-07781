@@ -7,18 +7,18 @@ export const UseCasesSection = () => {
   const useCases = [
     {
       icon: DollarSign,
-      title: "Career & Income",
-      description: "Operate as the person who's selected and compensated.",
+      title: "Carrera e Ingresos",
+      description: "Opera como la persona que es seleccionada y compensada.",
     },
     {
       icon: Heart,
-      title: "Love & Relationships",
-      description: "Interact as the secure, chosen version of you.",
+      title: "Amor y Relaciones",
+      description: "Interactúa como la versión segura y elegida de ti.",
     },
     {
       icon: Sparkles,
-      title: "Peace & Presence",
-      description: "Walk through the day with a steadier baseline.",
+      title: "Paz y Presencia",
+      description: "Camina durante el día con una línea base más estable.",
     },
   ];
 
@@ -29,9 +29,9 @@ export const UseCasesSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Choose Your End</span>
+            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Elige Tu Fin</span>
           </h2>
-          <p className="text-xl text-muted-foreground mb-8">Use Cases</p>
+          <p className="text-xl text-muted-foreground mb-8">Casos de Uso</p>
           <div className="max-w-2xl mx-auto mb-8">
             <img 
               src={useCaseCareer} 
@@ -66,7 +66,7 @@ export const UseCasesSection = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Start with a Free 1:1
+            Comienza con un 1:1 Gratis
           </Button>
         </div>
       </div>

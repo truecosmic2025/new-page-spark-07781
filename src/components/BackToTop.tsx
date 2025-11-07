@@ -32,7 +32,7 @@ export const BackToTop = () => {
       className={`fixed bottom-8 right-8 z-50 transition-all duration-300 ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16 pointer-events-none"
       }`}
-      aria-label="Back to top"
+      aria-label="Volver arriba"
     >
       <ArrowUp className="h-5 w-5" />
     </Button>

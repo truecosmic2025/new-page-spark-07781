@@ -6,28 +6,28 @@ export const MethodSection = () => {
   const steps = [
     {
       number: "1",
-      title: "Name the End as identity",
-      description: "We phrase the outcome from the self who already has it.",
+      title: "Nombra el Fin como identidad",
+      description: "Formulamos el resultado desde el ser que ya lo tiene.",
     },
     {
       number: "2",
-      title: "Edit the inner label",
-      description: "Select one replacement line that matches the new role you're stepping into.",
+      title: "Edita la etiqueta interna",
+      description: "Selecciona una frase de reemplazo que coincida con el nuevo rol al que estás entrando.",
     },
     {
       number: "3",
-      title: "Attach a cue",
-      description: "Pick a simple time/trigger so the new line actually gets used.",
+      title: "Adjunta una señal",
+      description: "Elige un momento/disparador simple para que la nueva frase realmente se use.",
     },
     {
       number: "4",
-      title: "Normalize it",
-      description: "Light, repeatable practice until the new self feels ordinary.",
+      title: "Normalízalo",
+      description: "Práctica ligera y repetible hasta que el nuevo ser se sienta ordinario.",
     },
     {
       number: "5",
-      title: "Support tool (as needed)",
-      description: "Quick SATS or a brief Revision for wobble moments.",
+      title: "Herramienta de apoyo (según sea necesario)",
+      description: "SATS rápido o una Revisión breve para momentos de vacilación.",
     },
   ];
 
@@ -38,10 +38,10 @@ export const MethodSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Why <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Self-Concept & Identity Reset</span> Work
+            Por Qué Funciona el <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Autoconcepto y Reinicio de Identidad</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Valentine's working model
+            El modelo de trabajo de Blanca
           </p>
           <div className="max-w-md mx-auto mb-8">
             <img 
@@ -70,7 +70,7 @@ export const MethodSection = () => {
 
         <div className="bg-card/30 backdrop-blur border border-primary/30 rounded-lg p-6 mb-8">
           <p className="text-lg text-foreground text-center">
-            <span className="font-semibold">Outcome:</span> Your self-definition stops arguing with your goal—so aligned choices come easier.
+            <span className="font-semibold">Resultado:</span> Tu autodefinición deja de discutir con tu objetivo—así las elecciones alineadas vienen más fácil.
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export const MethodSection = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Find Your Best-Fit Path
+            Encuentra Tu Camino Ideal
           </Button>
         </div>
       </div>

@@ -2,21 +2,21 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Check } from "lucide-react";
-import valentinePhoto from "@/assets/valentine-coach.jpg";
+import blancaPhoto from "@/assets/blanca-coach.jpg";
 
 export const CoachSection = () => {
   const coachingPoints = [
     {
-      title: "Clarity first",
-      description: "One End sentence that feels natural in your mouth.",
+      title: "Claridad primero",
+      description: "Una frase de Fin que se sienta natural en tu boca.",
     },
     {
-      title: "Identity alignment",
-      description: "Choose one line your new self would say.",
+      title: "Alineación de identidad",
+      description: "Elige una línea que tu nuevo yo diría.",
     },
     {
-      title: "Simplicity always",
-      description: "Repeatable, light practice beats drama.",
+      title: "Simplicidad siempre",
+      description: "La práctica ligera y repetible supera el drama.",
     },
   ];
 
@@ -27,22 +27,22 @@ export const CoachSection = () => {
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/30">
-            Specialty: Self-Concept & Identity Reset
+            Especialidad: Autoconcepto y Reinicio de Identidad
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Meet Your Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Valentine Wairimu</span>
+            Conoce a Tu Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Blanca Castillo</span>
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           {/* Coach info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-foreground">Hi, I'm Valentine.</h3>
+            <h3 className="text-2xl font-bold mb-4 text-foreground">Hola, soy Blanca.</h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              I coach through the lens of <span className="text-primary font-semibold">self-concept</span>—retraining the story of who you are so your life reflects it. Expect clarity, honest encouragement, and simple steps you'll actually do.
+              Hago coaching a través del lente del <span className="text-primary font-semibold">autoconcepto</span>—reentrenando la historia de quién eres para que tu vida lo refleje. Espera claridad, aliento honesto y pasos simples que realmente harás.
             </p>
 
-            <h3 className="text-2xl font-bold mb-4 text-foreground">How we'll work on the call:</h3>
+            <h3 className="text-2xl font-bold mb-4 text-foreground">Cómo trabajaremos en la llamada:</h3>
             <ul className="space-y-4 mb-6">
               {coachingPoints.map((point, index) => (
                 <li key={index} className="flex gap-3">
@@ -61,7 +61,7 @@ export const CoachSection = () => {
               className="w-full md:w-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all"
               onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Book with Valentine — Free 30 Minutes
+              Reserva con Blanca — 30 Minutos Gratis
             </Button>
           </div>
 
@@ -69,8 +69,8 @@ export const CoachSection = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 shadow-[0_0_40px_rgba(0,229,255,0.2)]">
               <img 
-                src={valentinePhoto} 
-                alt="Valentine Wairimu - Self-Concept & Identity Reset Coach" 
+                src={blancaPhoto} 
+                alt="Blanca Castillo - Coach de Autoconcepto y Reinicio de Identidad" 
                 className="w-full h-full object-cover"
               />
             </div>

@@ -4,17 +4,17 @@ import { Check, X } from "lucide-react";
 
 export const ProblemSection = () => {
   const problems = [
-    "You flip between confidence and self-doubt—your actions never quite match the goal.",
-    "Old inner labels keep pulling you back into yesterday's identity.",
-    "You know the tools, but consistency slips after a few days.",
-    "You want a steady self-concept so success feels normal, not lucky.",
+    "Alternas entre confianza y duda—tus acciones nunca coinciden del todo con el objetivo.",
+    "Las viejas etiquetas internas te siguen arrastrando a la identidad de ayer.",
+    "Conoces las herramientas, pero la consistencia se pierde después de unos días.",
+    "Quieres un autoconcepto estable para que el éxito se sienta normal, no suerte.",
   ];
 
   const solutions = [
-    "A fast read on your primary bottleneck.",
-    "One clean End sentence you can live from.",
-    "One recommended technique to begin (Inner Speech / SATS / Revision).",
-    "A personal recommendation for the coaching route that fits your aim.",
+    "Una lectura rápida de tu obstáculo principal.",
+    "Una frase de Fin clara desde la cual puedes vivir.",
+    "Una técnica recomendada para comenzar (Habla Interna / SATS / Revisión).",
+    "Una recomendación personal para la ruta de coaching que se ajusta a tu objetivo.",
   ];
 
   return (
@@ -26,7 +26,7 @@ export const ProblemSection = () => {
           {/* Is this you? */}
           <Card className="bg-card/50 backdrop-blur border-border/50">
             <CardContent className="pt-6">
-              <h2 className="text-3xl font-bold mb-6 text-foreground">Does this sound familiar?</h2>
+              <h2 className="text-3xl font-bold mb-6 text-foreground">¿Esto te suena familiar?</h2>
               <ul className="space-y-4">
                 {problems.map((problem, index) => (
                   <li key={index} className="flex gap-3">
@@ -41,7 +41,7 @@ export const ProblemSection = () => {
           {/* What changes here */}
           <Card className="bg-card/50 backdrop-blur border-primary/30">
             <CardContent className="pt-6">
-              <h2 className="text-3xl font-bold mb-6 text-foreground">What you'll gain here:</h2>
+              <h2 className="text-3xl font-bold mb-6 text-foreground">Lo que ganarás aquí:</h2>
               <ul className="space-y-4 mb-8">
                 {solutions.map((solution, index) => (
                   <li key={index} className="flex gap-3">
@@ -54,7 +54,7 @@ export const ProblemSection = () => {
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
                 onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Book Your Clarity Consultation
+                Reserva Tu Consulta de Claridad
               </Button>
             </CardContent>
           </Card>

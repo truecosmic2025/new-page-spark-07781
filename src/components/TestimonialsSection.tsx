@@ -9,19 +9,19 @@ import testimonialAvatar3 from "@/assets/testimonial-avatar-3.jpg";
 export const TestimonialsSection = () => {
   const testimonials = [
     {
-      text: "I stopped negotiating with my old self. Everything felt simpler.",
+      text: "Dejé de negociar con mi viejo yo. Todo se sintió más simple.",
       author: "Sarah M.",
       role: "",
       avatar: testimonialAvatar1,
     },
     {
-      text: "One line changed how I showed up in conversations.",
+      text: "Una línea cambió cómo me presentaba en las conversaciones.",
       author: "James K.",
       role: "",
       avatar: testimonialAvatar2,
     },
     {
-      text: "Tiny steps made it stick—no overwhelm.",
+      text: "Pequeños pasos lo hicieron duradero—sin abrumar.",
       author: "Rachel T.",
       role: "",
       avatar: testimonialAvatar3,
@@ -35,8 +35,8 @@ export const TestimonialsSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-indigo-950/40 to-transparent" />
       <div className="container max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Mini Proof</h2>
-          <p className="text-xl text-muted-foreground">Real, Short Wins</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Mini Prueba</h2>
+          <p className="text-xl text-muted-foreground">Victorias Reales y Cortas</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -68,7 +68,7 @@ export const TestimonialsSection = () => {
             className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Book Now — Limited Spots This Week
+            Reserva Ahora — Cupos Limitados Esta Semana
           </Button>
         </div>
       </div>

@@ -8,20 +8,20 @@ import {
 export const FAQSection = () => {
   const faqs = [
     {
-      question: "Is this coaching?",
-      answer: "It's a clarity consultation. We identify your main bottleneck, set an End sentence, pick one technique, and offer a coaching recommendation.",
+      question: "¿Esto es coaching?",
+      answer: "Es una consulta de claridad. Identificamos tu obstáculo principal, establecemos una frase de Fin, elegimos una técnica y ofrecemos una recomendación de coaching.",
     },
     {
-      question: "Do I leave with a full plan?",
-      answer: "Not from the consult. You'll receive a short recap and a recommended coaching route where your full plan is built.",
+      question: "¿Salgo con un plan completo?",
+      answer: "No de la consulta. Recibirás un breve resumen y una ruta de coaching recomendada donde se construye tu plan completo.",
     },
     {
-      question: "Do I need Neville experience?",
-      answer: "No—Valentine keeps it simple and practical.",
+      question: "¿Necesito experiencia con Neville?",
+      answer: "No—Blanca lo mantiene simple y práctico.",
     },
     {
-      question: "Is it really free?",
-      answer: "Yes. If a program fits, we'll mention it—no pressure.",
+      question: "¿Es realmente gratis?",
+      answer: "Sí. Si un programa es adecuado, lo mencionaremos—sin presión.",
     },
   ];
 
@@ -31,7 +31,7 @@ export const FAQSection = () => {
       <div className="absolute inset-0 bg-[#16213e]" />
       <div className="container max-w-3xl mx-auto relative z-10">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-foreground">
-          Frequently Asked Questions
+          Preguntas Frecuentes
         </h2>
 
         <Accordion type="single" collapsible className="space-y-4">

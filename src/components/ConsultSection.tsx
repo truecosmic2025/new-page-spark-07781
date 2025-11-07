@@ -6,22 +6,22 @@ import { CountdownTimer } from "@/components/CountdownTimer";
 export const ConsultSection = () => {
   const consultSteps = [
     {
-      title: "A quick diagnostic of your primary bottleneck",
+      title: "Un diagnóstico rápido de tu obstáculo principal",
     },
     {
-      title: "Your End sentence (already-done outcome)",
+      title: "Tu frase de Fin (resultado ya logrado)",
     },
     {
-      title: "One recommended technique to begin",
-      description: "(Inner Speech / SATS / Revision)",
+      title: "Una técnica recomendada para comenzar",
+      description: "(Habla Interna / SATS / Revisión)",
     },
     {
-      title: "One micro step for tonight",
-      description: "(under 5 minutes)",
+      title: "Un micro paso para esta noche",
+      description: "(menos de 5 minutos)",
     },
     {
-      title: "A brief recap email",
-      description: "End sentence, technique recommendation, suggested next step",
+      title: "Un breve email de resumen",
+      description: "Frase de Fin, recomendación de técnica, siguiente paso sugerido",
     },
   ];
 
@@ -32,17 +32,17 @@ export const ConsultSection = () => {
       <div className="container max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            What You'll Get In Your <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Free 30-Minute Consult</span>
+            Lo Que Obtendrás En Tu <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Consulta Gratuita de 30 Minutos</span>
           </h2>
         </div>
 
         <div className="flex flex-col items-center gap-3 mb-12">
           <div className="flex items-center gap-2 text-red-400">
             <AlertCircle className="w-5 h-5" />
-            <p className="font-semibold">Only 3 spots left this week</p>
+            <p className="font-semibold">Solo quedan 3 cupos esta semana</p>
           </div>
           <CountdownTimer urgent />
-          <p className="text-sm text-muted-foreground">Next available slots expire in...</p>
+          <p className="text-sm text-muted-foreground">Los próximos espacios disponibles expiran en...</p>
         </div>
 
         <div className="grid gap-6 mb-12">
@@ -71,7 +71,7 @@ export const ConsultSection = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-12"
             onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Claim Your Free Consultation
+            Reclama Tu Consulta Gratuita
           </Button>
         </div>
       </div>

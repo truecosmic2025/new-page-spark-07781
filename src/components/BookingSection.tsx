@@ -6,23 +6,23 @@ export const BookingSection = () => {
   const steps = [
     {
       number: "1",
-      title: "Answer some quick questions",
-      description: "Your aim, biggest sticking point, preferred outcome",
+      title: "Responde algunas preguntas rápidas",
+      description: "Tu objetivo, mayor punto de estancamiento, resultado preferido",
     },
     {
       number: "2",
-      title: "Pick a time with Cheryl",
-      description: "Choose a convenient slot from our calendar",
+      title: "Elige un horario con Blanca",
+      description: "Selecciona un espacio conveniente de nuestro calendario",
     },
     {
       number: "3",
-      title: "Check your email for prep",
-      description: "You'll get a confirmation email with the Zoom join info.",
+      title: "Revisa tu email para preparación",
+      description: "Recibirás un email de confirmación con la información de Zoom.",
     },
     {
       number: "4",
-      title: "We meet on Zoom/phone",
-      description: "You'll leave with a clear plan",
+      title: "Nos encontramos en Zoom/teléfono",
+      description: "Saldrás con un plan claro",
     },
   ];
 
@@ -33,10 +33,10 @@ export const BookingSection = () => {
       <div className="container max-w-5xl mx-auto relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Book Your Free Session
+            Reserva Tu Sesión Gratuita
           </h2>
           <p className="text-xl text-muted-foreground">
-            Start a conversation to see if we're a fit
+            Comienza una conversación para ver si somos compatibles
           </p>
         </div>
 
@@ -49,31 +49,31 @@ export const BookingSection = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-foreground mb-3">
-                  Let's Talk About Your Goals
+                  Hablemos de Tus Objetivos
                 </h3>
                 <p className="text-lg text-muted-foreground mb-6">
-                  Click the chat icon to start a conversation. Our AI assistant will ask you a few questions to understand your needs and help you schedule your free session.
+                  Haz clic en el ícono de chat para comenzar una conversación. Nuestro asistente IA te hará algunas preguntas para entender tus necesidades y ayudarte a programar tu sesión gratuita.
                 </p>
               </div>
               
               <div className="w-full max-w-md space-y-3 text-left">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Quick qualifying questions about your goals</p>
+                  <p className="text-muted-foreground">Preguntas rápidas de calificación sobre tus objetivos</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Personalized recommendations based on your needs</p>
+                  <p className="text-muted-foreground">Recomendaciones personalizadas basadas en tus necesidades</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                  <p className="text-muted-foreground">Direct calendar access to book your free session</p>
+                  <p className="text-muted-foreground">Acceso directo al calendario para reservar tu sesión gratuita</p>
                 </div>
               </div>
 
               <div className="mt-4 p-4 bg-background/50 rounded-lg border border-primary/20">
                 <p className="text-sm text-foreground font-semibold">
-                  👉 Look for the chat icon in the bottom-left corner of your screen
+                  👉 Busca el ícono de chat en la esquina inferior izquierda de tu pantalla
                 </p>
               </div>
             </div>
@@ -83,7 +83,7 @@ export const BookingSection = () => {
         {/* How It Works Steps */}
         <div className="mb-12">
           <h3 className="text-2xl font-bold text-center mb-8 text-foreground">
-            What to Expect
+            Qué Esperar
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
             {steps.map((step) => (
@@ -109,10 +109,10 @@ export const BookingSection = () => {
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-2 text-primary">
               <Users className="w-5 h-5" />
-              <p className="font-semibold">12 people are viewing this page right now</p>
+              <p className="font-semibold">12 personas están viendo esta página ahora mismo</p>
             </div>
             <CountdownTimer />
-            <p className="text-sm text-muted-foreground">Book within the next 24 hours to secure this week's slot</p>
+            <p className="text-sm text-muted-foreground">Reserva en las próximas 24 horas para asegurar el cupo de esta semana</p>
           </div>
         </div>
       </div>
