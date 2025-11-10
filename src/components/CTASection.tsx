@@ -15,7 +15,7 @@ export const CTASection = () => {
         </h2>
         
         <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Reserva tu consulta <span className="text-primary font-semibold">gratuita, sin presión</span> de 30 minutos con <span className="font-semibold text-foreground">Blanca Castillo</span>. Sal con una <span className="font-semibold text-foreground">frase de Fin</span> clara, <span className="font-semibold text-foreground">una técnica ideal</span>, y una <span className="font-semibold text-foreground">recomendación de coaching personalizada</span>.
+          Reserva tu consulta <span className="text-primary font-semibold">gratuita, sin presión</span> de 30 minutos con <span className="font-semibold text-foreground">Blanca Celis</span>. Sal con una <span className="font-semibold text-foreground">frase de Fin</span> clara, <span className="font-semibold text-foreground">una técnica ideal</span>, y una <span className="font-semibold text-foreground">recomendación de coaching personalizada</span>.
         </p>
 
         <div className="flex flex-col items-center gap-4 mb-10">

@@ -32,7 +32,7 @@ export const Hero = () => {
 
         {/* Subheadline */}
         <p className="mb-8 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Reserva una <span className="text-primary font-semibold">consulta de claridad gratuita de 30 minutos</span> con <span className="font-semibold text-foreground">Blanca Castillo</span>. Identificaremos el bloqueo real, elegiremos <span className="font-semibold text-foreground">una técnica</span> para comenzar, y compartiremos el <span className="font-semibold text-foreground">camino de coaching correcto</span> para generar impulso—basado en <span className="font-semibold text-foreground">autoconcepto y reinicio de identidad</span>.
+          Reserva una <span className="text-primary font-semibold">consulta de claridad gratuita de 30 minutos</span> con <span className="font-semibold text-foreground">Blanca Celis</span>. Identificaremos el bloqueo real, elegiremos <span className="font-semibold text-foreground">una técnica</span> para comenzar, y compartiremos el <span className="font-semibold text-foreground">camino de coaching correcto</span> para generar impulso—basado en <span className="font-semibold text-foreground">autoconcepto y reinicio de identidad</span>.
         </p>
 
         {/* Trust badges */}

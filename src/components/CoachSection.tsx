@@ -30,7 +30,7 @@ export const CoachSection = () => {
             Especialidad: Autoconcepto y Reinicio de Identidad
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
-            Conoce a Tu Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Blanca Castillo</span>
+            Conoce a Tu Coach — <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-gradient bg-[length:200%_auto]">Blanca Celis</span>
           </h2>
         </div>
 
@@ -70,7 +70,7 @@ export const CoachSection = () => {
             <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 shadow-[0_0_40px_rgba(0,229,255,0.2)]">
               <img 
                 src={blancaPhoto} 
-                alt="Blanca Castillo - Coach de Autoconcepto y Reinicio de Identidad" 
+                alt="Blanca Celis - Coach de Autoconcepto y Reinicio de Identidad" 
                 className="w-full h-full object-cover"
               />
             </div>
