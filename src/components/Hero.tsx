@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Sparkles, CheckCircle2 } from "lucide-react";
+import { openClauddeWidget } from "@/lib/claudde";
 import heroBackground from "@/assets/hero-background.jpg";
 
 export const Hero = () => {
