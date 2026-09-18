@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
-import { openClauddeWidget } from "@/lib/claudde";
 import { TrendingUp } from "lucide-react";
 
 export const CTASection = () => {
@@ -32,7 +31,7 @@ export const CTASection = () => {
           className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-12 text-lg h-14 mb-4 shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] hover:scale-105 transition-all"
           onClick={() => {
             document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
-            openClauddeWidget();
+            window.Claudde?.open();
           }}
         >
           Reserva Tu Consulta de Claridad — Actúa Ahora
