@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Sparkles, CheckCircle2 } from "lucide-react";
-import { openClauddeWidget } from "@/lib/claudde";
 import heroBackground from "@/assets/hero-background.jpg";
 
 export const Hero = () => {
@@ -52,7 +51,7 @@ export const Hero = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 text-lg h-14"
             onClick={() => {
               document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
-              openClauddeWidget();
+              window.Claudde?.open();
             }}
           >
             Reserva Tu Consulta de Claridad
@@ -61,7 +60,10 @@ export const Hero = () => {
             size="lg" 
             variant="outline" 
             className="border-foreground/30 text-foreground hover:bg-foreground/10 px-8 text-lg h-14"
-            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => {
+              document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+              window.Claudde?.open();
+            }}
           >
             Ve Cómo el Autoconcepto Cambia Resultados
           </Button>
